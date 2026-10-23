@@ -37,9 +37,11 @@ done
 
 ## 2. 安装持久化文件（不立即加载）
 
-在可信的项目目录执行：
+先获取源码（IR 映射无需编译内核），阅读并信任安装脚本后再执行：
 
 ```sh
+git clone https://github.com/YsLtr/b860av21-ir.git
+cd b860av21-ir
 sudo sh ./install.sh --install
 ```
 
