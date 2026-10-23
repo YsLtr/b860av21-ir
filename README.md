@@ -4,6 +4,8 @@
 
 仅面向这份遥控器配置对应的硬件组合。B860 系列不同后缀、板卡、固件及遥控器可能不同，不能据此宣称兼容所有 B860 型号。
 
+参考环境：B860AV2.1、Armbian noble、aarch64、`6.12.37-ophub`；参考机已验证重启后加载 31 个映射。安装器通过 Linux 临时目录隔离测试，发布过程未重写真实键表。配套 WiFi 源码与板级供电适配见 [b860av21-wifi](https://github.com/YsLtr/b860av21-wifi)。
+
 ## 来源、范围与验证边界
 
 - [keymap](<zte_b860av21.toml>) 根据观察到的 Android 遥控配置 `system/etc/remote_dd22.conf` 中的事实性扫描码整理；观察到的 `factory_code` 为 `0xDD220001`。没有重新分发整份厂商配置、厂商驱动、ROM 或其他专有二进制。
