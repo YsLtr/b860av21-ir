@@ -1,0 +1,24 @@
+SPDX-License-Identifier: GPL-2.0-or-later
+
+Copyright (C) 2026 b860av21-ir contributors
+
+The original scripts, configuration arrangement, and documentation in this
+repository are free software: you may redistribute and/or modify them under
+the GNU General Public License as published by the Free Software Foundation,
+either version 2 of the License, or (at your option) any later version.
+
+This project is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See LICENSE for the GNU GPL version 2.
+
+The keymap records factual scan codes observed in an Android remote
+configuration, identified as system/etc/remote_dd22.conf with factory_code
+0xDD220001. It is not a redistribution of the complete vendor configuration.
+No proprietary ROM, firmware blob, or vendor driver is included. This notice
+does not grant rights over vendor material or claim exclusivity over facts.
+
+Linux meson-ir and v4l-utils are external prerequisites, not vendored here.
+Their copyright and license terms remain those of their upstream projects;
+this project's GPL-2.0-or-later declaration does not relicense them.
+ZTE and product names are used only to identify the observed equipment.
+No vendor affiliation or endorsement is implied.

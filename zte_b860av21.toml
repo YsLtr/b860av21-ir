@@ -1,0 +1,40 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+# ZTE B860AV2.1 stock remote (factory_code 0xDD220001) -> rc-core keymap
+# NEC, address 0x22. scancodes taken from system/etc/remote_dd22.conf
+# (ZTE table column 1 = NEC command byte; mainline scancode = 0x22<cmd>).
+[[protocols]]
+name = "zte_b860av21"
+protocol = "nec"
+variant = "nec"
+[protocols.scancodes]
+0x22dc = "KEY_POWER"        # POWER
+0x229c = "KEY_MUTE"         # VOLUME_MUTE
+0x22ce = "KEY_ENTER"        # DPAD_CENTER / OK
+0x22ca = "KEY_UP"           # DPAD_UP
+0x22d2 = "KEY_DOWN"         # DPAD_DOWN
+0x2299 = "KEY_LEFT"         # DPAD_LEFT
+0x22c1 = "KEY_RIGHT"        # DPAD_RIGHT
+0x2295 = "KEY_BACK"         # BACK
+0x2288 = "KEY_HOMEPAGE"     # HOME
+0x228d = "KEY_SETUP"        # SETTINGS
+0x2282 = "KEY_MENU"         # MENU
+0x2280 = "KEY_VOLUMEUP"     # VOLUME_UP
+0x2281 = "KEY_VOLUMEDOWN"   # VOLUME_DOWN
+0x2285 = "KEY_CHANNELUP"    # CHANNEL_UP
+0x2286 = "KEY_CHANNELDOWN"  # CHANNEL_DOWN
+0x22cd = "KEY_RED"          # PROG_RED
+0x2283 = "KEY_GREEN"        # PROG_GREEN
+0x2291 = "KEY_YELLOW"       # PROG_YELLOW
+0x22c3 = "KEY_BLUE"         # PROG_BLUE
+0x2292 = "KEY_1"            # 1
+0x2293 = "KEY_2"            # 2
+0x22cc = "KEY_3"            # 3
+0x228e = "KEY_4"            # 4
+0x228f = "KEY_5"            # 5
+0x22c8 = "KEY_6"            # 6
+0x228a = "KEY_7"            # 7
+0x228b = "KEY_8"            # 8
+0x22c4 = "KEY_9"            # 9
+0x2287 = "KEY_0"            # 0
+0x22d0 = "KEY_BACKSPACE"    # DEL
+0x22da = "KEY_INFO"         # '#' / info
